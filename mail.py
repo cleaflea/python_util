@@ -1,7 +1,7 @@
 import smtplib
 def send_email():
-    gmail_user = "zjhsdtc@gmail.com"
-    gmail_pwd = "z1x2c3v41598753"
+    gmail_user = "XXX@gmail.com"
+    gmail_pwd = "XXXXXX"
     FROM = 'XXX@gmail.com'
     TO = ['XXX@qq.com', 'XXX@gmail.com', 'XXX@126.com'] #must be a list
     SUBJECT = "Testing sending using gmail"
