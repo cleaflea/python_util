@@ -1,9 +1,9 @@
 import smtplib
-def send_email(request):
+def send_email():
     gmail_user = "zjhsdtc@gmail.com"
     gmail_pwd = "z1x2c3v41598753"
-    FROM = 'zjhsdtc@gmail.com'
-    TO = ['441035424@qq.com'] #must be a list
+    FROM = 'XXX@gmail.com'
+    TO = ['XXX@qq.com', 'XXX@gmail.com', 'XXX@126.com'] #must be a list
     SUBJECT = "Testing sending using gmail"
     TEXT = "Testing sending mail using gmail servers"
 
@@ -24,3 +24,6 @@ def send_email(request):
 	print "failed to send mail"
 
     #return HttpResponse("ok")
+
+if __name__ == '__main__':
+    send_email()
